@@ -1,0 +1,23 @@
+h1      { 
+           color:            rgb(206, 152, 15);
+        text-align: justify;
+        text-align: left;}
+
+body    {background-color: silver;
+         font-family: Arial;
+        text-align: center;}
+
+a       {text-align: left;
+        color: rgb(161, 119, 11) ;}
+
+table   {width: 50%;
+        border-collapse: collapse;
+        margin: auto;
+        tr:nth-child(even) {background-color: cyan};
+        tr:nth-child(odd) {background-color: lightblue};
+    tr:hover{background-color: red;}}
+
+th      { border: 1px solid;color: yellow; text-align: center; background-color: blue;}
+td      { border: 1px solid;text-align: left;}
+
+
